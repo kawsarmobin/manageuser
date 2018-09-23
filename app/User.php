@@ -10,6 +10,13 @@ class User extends Authenticatable
 {
     use Notifiable;
 
+        const VERIFY = true;
+        const UNVERIFY = false;
+        const ACTIVE = true;
+        const DEACTIVE = false;
+        const ADMIN = true;
+        const REGULAR = false;
+
     /**
      * The attributes that are mass assignable.
      *
