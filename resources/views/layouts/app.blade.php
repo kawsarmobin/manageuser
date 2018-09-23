@@ -78,10 +78,10 @@
             <div class="col-3">
               <div class="list-group" role="tablist">
                 <ul>
-                  <li class="list-group-item list-group-item-action active">Menu</li>
-                  <li class="list-group-item list-group-item-action"><a style="text-decoration: none;" href="{{ route('user.create') }}">Create User</a></li>
-                  <li class="list-group-item list-group-item-action"><a style="text-decoration: none;" href="{{ route('user.index') }}">All User</a></li>
-                  <li class="list-group-item list-group-item-action"><a style="text-decoration: none;" href="{{ route('setting') }}">Setting</a></li>
+                  <li class="list-group-item list-group-item-action active" style="background-color: #00AA9E;">Menu</li>
+                  <li class="list-group-item list-group-item-action"><a style="text-decoration: none; color: #F39C12;" href="{{ route('user.create') }}">Create User</a></li>
+                  <li class="list-group-item list-group-item-action"><a style="text-decoration: none; color: #F39C12;" href="{{ route('user.index') }}">All User</a></li>
+                  <li class="list-group-item list-group-item-action"><a style="text-decoration: none; color: #F39C12;" href="{{ route('setting') }}">Setting</a></li>
                 </ul>
               </div>
             </div>
